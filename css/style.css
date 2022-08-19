@@ -3,6 +3,7 @@
   --color-one: #757575;
   --color-two: #212121;
   --color-three: #2196f3;
+  --color-four: #2f303a;
 }
 
 body {
@@ -29,6 +30,104 @@ body {
   text-decoration: none;
 }
 
-.top-nav a:hover {
+.top-nav a:hover,
+.top-nav a:focus {
   color: var(--color-three);
 }
+
+.top-nav-list a {
+  color: var(--color-one);
+}
+
+.top-nav-list a:hover,
+.top-nav-list a:focus {
+  color: var(--color-three);
+}
+
+.hero {
+  background-color: var(--color-four);
+}
+
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-bg-color);
+}
+
+.hero button {
+  background-color: var(--color-three);
+  color: var(--main-bg-color);
+  cursor: pointer;
+}
+
+.advantages {
+  background-color: var(--main-bg-color);
+}
+
+.advantages p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-two);
+}
+
+.footer {
+  background-color: var(--color-four);
+}
+
+.map {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--main-bg-color);
+}
+
+.map :hover,
+.map :focus {
+  color: var(--color-three);
+}
+
+.mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mail :hover,
+.mail :focus {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.tel :hover,
+.tel :focus {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* друга сторінка сайту */
