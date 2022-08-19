@@ -21,8 +21,9 @@ body {
 .top-nav {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 0.9;
   letter-spacing: 0.02em;
+  cursor: pointer;
 }
 
 .top-nav a {
@@ -51,7 +52,7 @@ body {
 .hero h1 {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 0.7;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -68,11 +69,20 @@ body {
   background-color: var(--main-bg-color);
 }
 
+.advantages h3 {
+  color: var(--color-two);
+}
+
 .advantages p {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 0.6;
   letter-spacing: 0.03em;
+}
+
+.our-activities
+{
+  color: var(--color-two);
 }
 
 .our-team {
@@ -82,10 +92,18 @@ body {
 .our-team h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 0.9;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-two);
+}
+
+.our-team h3 {
+  color: var(--color-two);
+}
+
+.our-team p {
+  color: var(--color-one);
 }
 
 .footer {
@@ -95,7 +113,7 @@ body {
 .map {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 0.6;
   letter-spacing: 0.03em;
   color: var(--main-bg-color);
 }
@@ -108,7 +126,7 @@ body {
 .mail {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 0.6;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -121,13 +139,52 @@ body {
 .tel {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 0.6;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .tel :hover,
 .tel :focus {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-three);
 }
+
 /* друга сторінка сайту */
+
+.work {
+  background-color: #F5F5F5;
+}
+
+.work-list {
+  background-color: #F5F4FA;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.6;
+  letter-spacing: 0.03em;
+  color: var(--color-two);
+  cursor: pointer;
+}
+
+.work-list :hover,.work-list :focus {
+  background-color: var(--color-three);
+}
+
+.gallery {
+  background-color: #F5F5F5;
+}
+
+.gallery h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+  letter-spacing: 0.06em;
+  color: var(--color-two);
+}
+
+.gallery p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;  
+  letter-spacing: 0.06em;
+  color: var(--color-one);
+}
