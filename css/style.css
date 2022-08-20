@@ -4,6 +4,7 @@
   --color-two: #212121;
   --color-three: #2196f3;
   --color-four: #2f303a;
+  --secondary-font:"Raleway", sans-serif;
 }
 
 body {
@@ -111,10 +112,11 @@ body {
 }
 
 .map {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 0.6;
-  letter-spacing: 0.03em;
+  font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.6;
+    letter-spacing: 0.03em;
   color: var(--main-bg-color);
 }
 
@@ -124,6 +126,7 @@ body {
 }
 
 .mail {
+font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 0.6;
@@ -133,10 +136,11 @@ body {
 
 .mail :hover,
 .mail :focus {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-three);
 }
 
 .tel {
+font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 0.6;
