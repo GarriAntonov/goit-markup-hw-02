@@ -70,6 +70,10 @@ body {
   background-color: var(--main-bg-color);
 }
 
+.advantages span {
+  display: none;
+}
+
 .advantages h3 {
   color: var(--color-two);
 }
@@ -119,25 +123,12 @@ body {
   color: var(--main-bg-color);
 }
 
-.map :hover,
-.map :focus {
+.map:hover,
+.map:focus {
   color: var(--color-three);
 }
 
-.mail {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 0.6;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.mail :hover,
-.mail :focus {
-  color: var(--color-three);
-}
-
+.mail,
 .tel {
   font-style: normal;
   font-weight: 400;
@@ -147,8 +138,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.tel :hover,
-.tel :focus {
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
   color: var(--color-three);
 }
 
@@ -168,8 +161,8 @@ body {
   cursor: pointer;
 }
 
-.work-list :hover,
-.work-list :focus {
+.work-list:hover,
+.work-list:focus {
   background-color: var(--color-three);
 }
 
