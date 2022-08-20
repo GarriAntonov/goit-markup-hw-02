@@ -9,7 +9,6 @@
 }
 
 body {
-  margin: 0;
   font-family: var(--primary-font);
   color: var(--color-one);
   font-size: 14px;
