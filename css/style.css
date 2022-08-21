@@ -4,28 +4,48 @@
   --color-two: #212121;
   --color-three: #2196f3;
   --color-four: #2f303a;
+  --color-five: #000;
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
 }
 
 body {
   font-family: var(--primary-font);
-  color: var(--color-one);
   font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--color-one);
   background-color: var(--main-bg-color);
 }
 
-.top-nav {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  cursor: pointer;
+.list {
+  list-style: none;
 }
 
-.top-nav a {
-  color: var(--color-two);
+.link {
   text-decoration: none;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--color-five);
+}
+
+.logo-web {
+  color: var(--color-three);
+} 
+
+.nav-link {
+  color: var(--color-two);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.current-page {
+  color: var(--color-three);
 }
 
 .top-nav a:hover,
@@ -33,12 +53,13 @@ body {
   color: var(--color-three);
 }
 
-.top-nav-list a {
+.header-contacts a {
   color: var(--color-one);
+  font-weight: 500;
 }
 
-.top-nav-list a:hover,
-.top-nav-list a:focus {
+.header-contacts a:hover,
+.header-contacts a:focus {
   color: var(--color-three);
 }
 
@@ -46,7 +67,7 @@ body {
   background-color: var(--color-four);
 }
 
-.hero h1 {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -54,6 +75,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-bg-color);
+}
+
+.advantages-text {
+  line-height: 1.7;
 }
 
 .hero button {
@@ -70,39 +95,47 @@ body {
   display: none;
 }
 
-.advantages h3 {
+.advantages-title {
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
   color: var(--color-two);
 }
 
 .advantages p {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
-.our-activities {
+.our-activities-title {
   color: var(--color-two);
-}
-
-.our-team {
-  background-color: #f5f4fa;
-}
-
-.our-team h2 {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
   color: var(--color-two);
 }
 
-.our-team h3 {
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
   color: var(--color-two);
 }
 
-.our-team p {
+.team-position {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
   color: var(--color-one);
 }
 
@@ -110,34 +143,32 @@ body {
   background-color: var(--color-four);
 }
 
-.map {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+.footer .logo{
   color: var(--main-bg-color);
 }
 
-.map:hover,
-.map:focus {
+.footer-adress {
+  font-style: normal;
+  line-height: 1.7;
+  color: var(--main-bg-color);
+}
+
+.footer-adress:hover,
+.footer-adress:focus {
   color: var(--color-three);
 }
 
-.mail,
-.tel {
+.footer-mail,
+.footer-tel {
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.mail:hover,
-.mail:focus,
-.tel:hover,
-.tel:focus {
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
   color: var(--color-three);
 }
 
@@ -147,7 +178,7 @@ body {
   display: none;
 }
 
-.filters button {
+.filters-button {
   background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
@@ -157,23 +188,26 @@ body {
   cursor: pointer;
 }
 
-.filters button:hover,
-.filters button:focus {
+.filters-button:hover,
+.filters-button:focus {
+  color: var(--main-bg-color);
   background-color: var(--color-three);
 }
 
-.gallery h2 {
-  font-weight: 700;
+.current-filter {
+  color: var(--main-bg-color);
+  background-color: var(--color-three);
+}
+
+.gallery-item-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-two);
 }
 
-.gallery p {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2.25;
-  letter-spacing: 0.06em;
+.gallery-item-desc {
+  font-size: 16px;
+  line-height: 1.9;
   color: var(--color-one);
 }
